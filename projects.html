@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yarik | Projects</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Shared site header; aria-current marks the active page in the navigation. -->
+  <header>
+    <a class="logo" href="index.html">Yarik</a>
+    <nav aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html" aria-current="page">Projects</a>
+    </nav>
+  </header>
+  <main>
+    <!-- Project cards are laid out by .project-grid in the shared stylesheet. -->
+    <section class="projects-section" aria-labelledby="projects-title">
+      <h1 id="projects-title">Meine Projekte</h1>
+      <p class="intro">Hier siehst du alle Projekte, die ich bis jetzt gebaut habe.</p>
+      <div class="project-grid">
+        <!-- Add another article here for each new project. -->
+        <article class="project-card">
+          <div class="project-card-content">
+            <h2>Taschenrechner</h2>
+            <p>Ein kleiner Taschenrechner, den ich mit Python gebaut habe.</p>
+          </div>
+          <a href="https://github.com/yarik007-com/calculator" rel="noopener noreferrer" target="_blank">View on GitHub <span aria-hidden="true">↗</span></a>
+        </article>
+      </div>
+    </section>
+  </main>
+  <footer><span>© 2026 Yarik</span></footer>
+</body>
+</html>

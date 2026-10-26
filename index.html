@@ -1,0 +1,33 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yarik | Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Shared site header; aria-current marks the active page in the navigation. -->
+  <header>
+    <a class="logo" href="index.html">Yarik</a>
+    <nav aria-label="Main navigation">
+      <a href="index.html" aria-current="page">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+    </nav>
+  </header>
+  <main>
+    <!-- Home introduction and portrait use the shared two-column layout. -->
+    <section class="with-image" aria-labelledby="home-title">
+      <div>
+        <h1 id="home-title">Ich bin Yarik.</h1>
+        <p class="intro">Während den Sommerferien 2026 habe ich mich entschieden, dass ich als Informatiker arbeiten möchte, weil es mich interessiert, wie die Computerwelt funktioniert.</p>
+        <a class="button" href="about.html">Hier siehst du meine bisherigen Schritte...</a>
+      </div>
+      <!-- The home modifier adjusts the crop for this specific photo. -->
+      <img class="portrait-image portrait-image-home" src="img/DSC07220.JPG" alt="Yaroslav standing in front of a yellow glass facade" width="6000" height="4000" fetchpriority="high">
+    </section>
+  </main>
+  <footer><span>© 2026 Yarik</span></footer>
+</body>
+</html>

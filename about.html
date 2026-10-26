@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yarik | About</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Shared site header; aria-current marks the active page in the navigation. -->
+  <header>
+    <a class="logo" href="index.html">Yarik</a>
+    <nav aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="about.html" aria-current="page">About</a>
+      <a href="projects.html">Projects</a>
+    </nav>
+  </header>
+  <main>
+    <!-- About text and portrait use the same layout as the home page. -->
+    <section class="with-image" aria-labelledby="about-title">
+      <div>
+        <h1 id="about-title">Ein wenig über mich</h1>
+        <div class="about-copy">
+          <p>Ich bin in der Nähe von Odessa in der Ukraine geboren. 2025 kam ich in die Schweiz. Nachdem ich zwischen August 2025 und Juli 2026 in der Schweiz die Berufswahlschule in Winterthur besucht und Deutsch gelernt habe, will ich Informatiker werden.</p>
+          <p>Ich bin sehr geduldig und ausdauernd. So gelingt es mir, jedes ICT-Problem zu lösen und im Bekanntenkreis die Geräte am Laufen zu halten. Seitdem ich mich für eine Informatik-Ausbildung entschieden habe, beschäftige ich mich auch mit Programmiersprachen.</p>
+        </div>
+        <a class="button" href="projects.html">Mein erstes Projekt mit Python ist bereits auf dieser Seite verlinkt →</a>
+      </div>
+      <!-- The about modifier adjusts the crop and mirrors only this photo. -->
+      <img class="portrait-image portrait-image-about" src="img/DSC07216.JPG" alt="Yaroslav outdoors among trees" width="4000" height="6000" loading="lazy">
+    </section>
+  </main>
+  <footer><span>© 2026 Yarik</span></footer>
+</body>
+</html>
